@@ -1,5 +1,5 @@
-import WPAPI from 'wpapi';
-import React from 'react';
+import WPAPI from "wpapi";
+import React from "react";
 import Layout from "../components/layouts/Layout";
 import Config from "../config";
 
@@ -20,10 +20,10 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="relative">
-          <h2>Gerege wordpress</h2>
-          Hello template
+          <h2>Tester</h2>
+          test
         </div>
-      </Layout >
+      </Layout>
     );
   }
 }
