@@ -1,9 +1,29 @@
 footer {
-  background: #eee;
-
-  .copyright { 
-    opacity: .9;
-
-    img { width: 110px; }
+  div:first-child {
+    background-color: rgba(29, 48, 123, 0.12);
+    padding: 66px 0;
+    text-align: center;
+    h1 {
+      margin: 0;
+    }
+    p {
+      margin: 8px 0 15px 0;
+    }
+    input {
+      padding: 20px;
+      width: 327px;
+      border-radius: 8px;
+      border-color: #1d307b;
+    }
+  }
+  div:last-child {
+    display: flex;
+    padding: 46px 228px;
+    p {
+      margin: 0;
+      &:last-child {
+        margin-left: auto;
+      }
+    }
   }
 }

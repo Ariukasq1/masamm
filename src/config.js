@@ -1,5 +1,5 @@
 const Config = {
-  apiUrl: 'http://tdb.nmma.co/wp/wp-json',
+  apiUrl: "",
 };
 
 export default Config;

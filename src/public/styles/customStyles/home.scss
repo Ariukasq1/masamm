@@ -1,0 +1,40 @@
+.introduction {
+  display: flex;
+  padding-top: 132px;
+  color: white;
+  background: linear-gradient(129.98deg, #3d57bd 13.8%, #1d307b 90.93%);
+  div {
+    width: 50%;
+    h1,
+    p {
+      margin-left: 229px;
+      margin-right: 84px;
+    }
+    h1 {
+      margin-top: 0;
+      margin-bottom: 40px;
+      font-weight: 700;
+      font-size: 34px;
+    }
+    p {
+      font-size: 16px;
+      margin-top: 125px;
+      margin-bottom: 7px;
+    }
+    button {
+      color: #1d307b;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 16px 24px 16px 28px;
+      margin-left: 229px;
+      background-color: #ffffff;
+      border-color: #1d307b;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

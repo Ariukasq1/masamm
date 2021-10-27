@@ -20,8 +20,19 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="relative">
-          <h2>Tester</h2>
-          test
+          <div className="introduction">
+            <div>
+              <p>МАСАМ төслийн хоёр дахь үе шат</p>
+              <h1>
+                Монгол Улсад ил тод байдал, оролцоог сайжруулахын төлөө нийгмийн
+                эгэх хариуцлагыг уялдуулах нь
+              </h1>
+              <button>MASAM II танилцуулга</button>
+            </div>
+            <div>
+              <img src="images/image1.png" />
+            </div>
+          </div>
         </div>
       </Layout>
     );

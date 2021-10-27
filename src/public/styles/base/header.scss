@@ -1,4 +1,10 @@
 .main-header {
+  background-color: #ffffff;
+  line-height: 0;
+  padding: 24px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
   .logo img {
     width: 120px;
   }
