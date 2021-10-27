@@ -10,7 +10,9 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@zeit/next-css": "^1.0.1",
+    "antd": "^4.16.13",
     "axios": "^0.19.2",
     "express": "^4.17.1",
     "google-map-react": "^1.1.7",

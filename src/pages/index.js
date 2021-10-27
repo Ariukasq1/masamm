@@ -2,6 +2,10 @@ import WPAPI from "wpapi";
 import React from "react";
 import Layout from "../components/layouts/Layout";
 import Config from "../config";
+import TextSlider from "../components/home/TextSlider";
+import { Introduction } from "../components/home/Introduction";
+import { Activity } from "../components/home/Activity";
+import { Range } from "../components/home/Range";
 
 // const wp = new WPAPI({ endpoint: Config.apiUrl });
 
@@ -20,19 +24,10 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="relative">
-          <div className="introduction">
-            <div>
-              <p>МАСАМ төслийн хоёр дахь үе шат</p>
-              <h1>
-                Монгол Улсад ил тод байдал, оролцоог сайжруулахын төлөө нийгмийн
-                эгэх хариуцлагыг уялдуулах нь
-              </h1>
-              <button>MASAM II танилцуулга</button>
-            </div>
-            <div>
-              <img src="images/image1.png" />
-            </div>
-          </div>
+          <Introduction />
+          <TextSlider />
+          <Activity />
+          <Range />
         </div>
       </Layout>
     );
