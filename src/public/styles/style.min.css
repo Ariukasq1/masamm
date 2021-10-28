@@ -275,7 +275,11 @@ footer div:first-child .ant-input-affix-wrapper {
   border-radius: 8px;
   border-color: #1d307b;
 }
-footer div:first-child .ant-input-affix-wrapper .anticon svg,
+footer div:first-child .ant-input-affix-wrapper .anticon svg {
+  font-size: 20px;
+  color: #616e7c;
+  margin-right: 10px;
+}
 footer div:first-child .ant-input-affix-wrapper input::placeholder {
   color: #616e7c;
   font-size: 16px;
@@ -383,7 +387,6 @@ footer div:last-child span {
   }
 }
 .introduction {
-  padding-top: 132px;
   background: linear-gradient(129.98deg, #3d57bd 13.8%, #1d307b 90.93%);
 }
 .introduction div img {
@@ -548,6 +551,10 @@ p {
   border-color: #1d307b;
   border-radius: 8px;
   box-sizing: border-box;
+}
+
+.page {
+  padding-top: 132px;
 }
 
 /*# sourceMappingURL=style.min.css.map */

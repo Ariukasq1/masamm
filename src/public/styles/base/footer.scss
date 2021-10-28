@@ -15,7 +15,11 @@ footer {
       width: 327px;
       border-radius: 8px;
       border-color: #1d307b;
-      .anticon svg,
+      .anticon svg {
+        font-size: 20px;
+        color: #616e7c;
+        margin-right: 10px;
+      }
       input::placeholder {
         color: #616e7c;
         font-size: 16px;

@@ -23,7 +23,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="relative">
+        <div className="page home">
           <Introduction />
           <TextSlider />
           <Activity />
