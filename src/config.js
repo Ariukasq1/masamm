@@ -1,5 +1,5 @@
 const Config = {
-  apiUrl: "",
+  apiUrl: "https://masam.nmma.co/wp",
 };
 
 export default Config;
