@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{Kr8L:function(n,e,t){"use strict";t.r(e);var w=t("t30L"),a=t("q1tI"),s=t.n(a).a.createElement;e.default=function(){return s(w.a,null,s("div",{className:"page news"},"News page"))}},jFvI:function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/news",function(){return t("Kr8L")}])}},[["jFvI",0,2,1,3]]]);

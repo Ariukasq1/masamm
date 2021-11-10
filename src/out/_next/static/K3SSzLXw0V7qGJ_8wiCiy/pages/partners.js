@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{"+hj9":function(n,e,t){"use strict";t.r(e);var a=t("t30L"),r=t("q1tI"),s=t.n(r).a.createElement;e.default=function(){return s(a.a,null,s("div",{className:"page partners"},"Partners page"))}},HmY1:function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/partners",function(){return t("+hj9")}])}},[["HmY1",0,2,1,3]]]);
